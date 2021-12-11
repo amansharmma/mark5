@@ -1,0 +1,102 @@
+:root{
+    --primary-color: rgb(138, 50, 43);
+    --text-color:white;
+    --first-box:rgb(248, 236, 246);
+    --sec-box:rgb(71, 67, 67);
+}
+body{
+    max-width: 85%;
+    margin: auto;
+}
+.navigation{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    margin: 0rem;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+}
+.right{
+    text-align: right;
+    
+}
+header{
+    
+    display: block;
+    padding-top: 5rem;
+    padding: 2rem;
+}
+img{
+    max-width: 45%;
+    margin: auto;
+    display: block;
+}
+.person_name{
+    text-align: center;
+    padding: 2rem;
+    padding-top: 1rem;
+    color: grey;
+}
+.profile{
+    color: var(--primary-color);
+    
+}
+.inline{
+    display: inline;
+    margin: 1rem;   
+}
+section{
+    padding: 2rem;
+    margin: 2rem 0rem;
+    border-radius: 1rem;
+}
+.clr{
+    background-color: var(--first-box);
+}
+p{
+    text-align: center;
+}
+.no{
+    text-align: center;
+}
+.link{
+    
+    text-decoration: none;
+}
+head , footer{
+    max-width: 85%;
+    margin: auto;
+}
+.active-link{
+    font-weight: bold;
+}
+.linker{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    margin: 2rem auto;
+    max-width: 100px;
+   
+}
+.links{
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.mid{
+    display: block;
+    text-align: center;
+}
+.color{
+    color: var(--text-color);
+}
+h1{
+    text-align: center;
+}
